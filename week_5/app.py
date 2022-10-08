@@ -6,7 +6,7 @@ app = Flask('credit-card-app')
 
 
 def load_model():
-    with open('model1.bin', 'rb') as f_in:  
+    with open('model2.bin', 'rb') as f_in:  
         model = pickle.load(f_in)
     return model
 

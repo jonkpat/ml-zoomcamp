@@ -10,8 +10,6 @@ COPY Pipfile.lock .
 RUN pipenv install --deploy --system
 
 COPY app.py .
-COPY dv.bin .
-COPY model1.bin .
 
 EXPOSE 9696
 
